@@ -9,3 +9,5 @@ Here are a few fairly obvious:
 - Regular expression
 
 - Any structured data (XML, JSON, CSV...)
+
+- Code Compiler parser
