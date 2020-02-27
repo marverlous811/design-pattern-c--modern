@@ -1,0 +1,1 @@
+## Adapter: A consturct which adapts an existing interfaceX to conform to the required interface Y
