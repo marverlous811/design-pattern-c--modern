@@ -36,7 +36,7 @@ public:
     }
     void unsubscribe(Observer<T> &f)
     {
-        scoped_lock<mutex> lock{mtx};
+        // scoped_lock<mutex> lock{mtx};
         observers.erase(
             remove(observers.begin(), observers.end(), &f),
             observers.end());
